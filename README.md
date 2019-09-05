@@ -33,3 +33,15 @@ document.getElementById("demo").innerHTML = 5 + 6;
 </html>
 
 
+Using window.alert()
+You can use an alert box to display data:
+Using console.log()
+For debugging purposes, you can use the console.log() method to display data.
+
+JavaScript Statements
+Ex: 
+var x, y, z;    // Statement 1
+x = 5;          // Statement 2
+y = 6;          // Statement 3
+z = x + y;      // Statement 4
+
