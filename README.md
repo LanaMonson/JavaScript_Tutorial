@@ -12,3 +12,24 @@ JavaScript can "display" data in different ways:
 -	Writing into the browser console, using console.log().
 
 
+Using innerHTML
+To access an HTML element, JavaScript can use the document.getElementById(id) method.
+The id attribute defines the HTML element. The innerHTML property defines the HTML content:
+Ex:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+</body>
+</html>
+
+
